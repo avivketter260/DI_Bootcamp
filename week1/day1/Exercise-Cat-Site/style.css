@@ -1,0 +1,29 @@
+
+*{
+    text-align: center;
+}
+
+.continer{
+    display:grid;
+    justify-content: center;
+  }
+
+body{
+
+    background-color: #ddd;
+}
+
+.floating {
+    margin: 1px 405px 78px -162px;
+        float:right;
+        width: 20%;
+
+  }
+
+.floating-titel{
+    text-align: end;
+    width: 30%;
+}
+div:hover{
+    background-color: rgba(185, 176, 176, 0.178);
+}

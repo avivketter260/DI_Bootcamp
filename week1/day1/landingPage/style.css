@@ -1,0 +1,95 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpeg");
+
+    /* Full height */
+    height: 85%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg label{
+    display: grid;
+    place-items: center;
+}
+
+input#land-page {
+    margin: 238px 0px 23px 18px;
+
+
+    display: flex;
+    width: 36%;
+    height: 2.175rem;
+    padding: -5px 19px 1px 4px;
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* background-clip: padding-box; */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+
+#button{
+    margin: -73px 26px 10px 677px;
+    display: block;
+    width: 7%;
+    height: 40px;
+    padding: 0.75rem;
+    background: #37af65;
+    color: whitesmoke;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#button:hover{
+    margin: -73px 26px 10px 677px;
+    display: block;
+    width: 7%;
+    height: 40px;
+    padding: 0.75rem;
+    background: #05ee5fb7;
+    color: whitesmoke;
+    border-radius: 2px;
+    cursor: pointer;
+}
+ #icons{
+ 
+}
+
+
+ .fa-search:before {
+    content: "\f002";
+    margin: 19px 82px 14px -185px;
+}
+.fa-css3-alt:before {
+    content: "\f38b";
+    margin: -21px 140px 0px 20px;
+}
+
+
+
+h1 {
+    margin: -218px 61px -600px 78px;
+    color: white;
+    font-family: system-ui;
+}
+.a,.b,.c{
+    float:right;
+    width: 20%;
+    margin: 4px 16px 15px 157px;
+}
+
+
+.fa-search:before {
+    content: "\f002";
+    margin: 0px;
+}

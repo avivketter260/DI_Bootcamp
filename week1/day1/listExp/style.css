@@ -1,0 +1,13 @@
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .continer{
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+      text-align: center;
+  }
