@@ -1,0 +1,135 @@
+
+
+.offer{
+margin-top: 80px;
+padding: 30px 0;
+}
+.offer .small-container .row {
+    padding: 4px 499px 7px 56px;
+    background: radial-gradient(#fff,#ffd6d6);
+    /* border-radius: 50%; */
+    margin: -22px -294px -31px -296px;
+}
+img.offer-img {
+    position: relative;
+    top: 11px;
+    left: 233px;
+}
+.form-group-nes {
+    padding: 194px 0px 0px 152px;
+
+}
+
+.small-container .row h1 {
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 0px;
+
+}
+
+#name-label,#email-label p {
+    font-family: 'Lemonada', cursive;
+}
+.form-group-nes input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.email-input {
+    display: flex;
+    width: 95%;
+    height: 2.175rem;
+    padding: -5px 19px 1px 4px;
+    border: 1px solid #ced4da;
+    
+    border-radius: 0.25rem;
+    margin: 71px -392px -27px -48px;
+}
+
+button.submit-button:hover{
+    background:#54dd88 ;
+}
+a.submit-button:hover{
+    background:#563434 ;
+
+}
+button.submit-button {
+    position: relative;
+    left: 53px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    position: relative;
+    background-color:#37af65 ;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:30px ;
+    transition: background-color 0.5s;
+}
+a.submit-button {
+    position: relative; 
+    left: 107px;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+}
+
+.form-button{
+    text-align: center;
+    display: flex;
+    position: relative;
+    right: 89px;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:30px ;
+}
+
+  .fotter{
+      background: #000;
+      color:#8a8a8a ;
+      font-size: 14px;
+      padding: 60px 0 20px;
+  }
+  .username{
+      position: relative;
+  }
+  .password{
+      position: relative;
+      right: 195px;
+  }
+  .fotter .row button{
+    position: relative; 
+    top: 9px;
+    right: 428px;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+  }
+  .fotter .row button:hover{
+    background:#703333 ;
+
+}
+.fotter .container form{
+    position: relative;
+    left: 197px;
+    margin: 0px 63px 0px 0px;
+
+}
+fieldset {
+    max-width: 120px;
+    position: relative;
+    padding: 10px;
+    left: 1398px;
+    top: 19px;
+}
