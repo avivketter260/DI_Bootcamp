@@ -1,0 +1,114 @@
+body, html {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    left: 177px;
+    bottom: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("pic.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent!important;
+    padding-left: 60px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.p-5.text-center.bg-light{
+    background-color: transparent!important;
+
+}
+.nav-link {
+    display: flex;
+    padding: 91px 80px 29px 42px;
+    margin: 6px 116px 2px -70px;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.cards {
+    padding: 128px 52px 35px 59px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: transparent!important;
+}
+.fa-biking:before {
+    content: "\f84a";
+    position: relative;
+    right: -27px;
+    top: -37px;
+    color: rgb(100, 107, 207);
+}
+
+.fa-child:before {
+    content: "\f1ae";
+    position: relative;
+    right: -27px;
+    top: -37px;
+}
+
+.fa-cannabis:before {
+    content: "\f55f";
+    position: relative;
+    right: -27px;
+    top: -37px;
+}
+.cards {
+    padding: 128px 52px 35px 59px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(100, 107, 207);
+}
+
+div#navbarText {
+    position: relative;
+    left: 61%;
+}
+
+.navbar-light .navbar-brand {
+    color: white!important;
+    position: relative;
+    left: 200px;
+    font-size: medium;
+    font-family: cursive;
+}
+.mb-3 {
+    color: white;
+    padding: 16px;
+}
+
+a#btn2 {
+    color: white;
+    background: none;
+    border-color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 11px !important;
+}
