@@ -8,8 +8,8 @@
 
 
 const lifeInFrame = () => {
-    userString = 'aviv,is,here';
-    turnToArray = userString.split(',');
+    let userString = prompt('Type a several words (separated by commas). ');
+    let turnToArray = userString.split(',');
     let astrict = '*';
     let longestWord;
     for (let i = 0; i < turnToArray.length; i++) {
@@ -17,11 +17,11 @@ const lifeInFrame = () => {
         longestWord = turnToArray[i].length > turnToArray[i + 1].length ? turnToArray[i] : turnToArray[i + 1];
     }
 
-    console.log(astrict.repeat((longestWord.length * 2) -2))
+    console.log(astrict.repeat((longestWord.length * 2) - 2))
     for (j of turnToArray) {
         console.log(`*${j}*`)
     }
-    console.log(astrict.repeat((longestWord.length * 2) -2))
+    console.log(astrict.repeat((longestWord.length * 2) - 2))
 
 }
 lifeInFrame()
