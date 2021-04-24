@@ -1,0 +1,51 @@
+body{
+    margin:0
+}
+
+.container{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 117px 48px 37px 345px;
+    padding: 100px 200px 76px 121px;
+
+}
+input#todo {
+    width: 208px;
+    height: 21px;
+    border-radius: 50px;
+}
+
+button#btn {
+    background: limegreen;
+    color: white;
+    height: 37px;
+    width: 220px;
+    font-size: smaller;
+    /* font-weight: 200; */
+    border-radius: 37px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.listTasks {
+    padding: 57px;
+}
+.fa, .fas {
+    font-weight: 600;
+    padding: 19px;
+    color: red;
+    /* border: 0.5px solid; */
+    cursor: pointer;
+}
+
+.todo {
+    background: white;
+    width: 100vh;
+    height: 16vh;
+    border-bottom: 1px solid darkgrey;
+}
