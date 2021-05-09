@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.pokedex{
+    position: relative;
+    left: 30%;
+    bottom: -6rem;
+}
+.img-container{
+    position: absolute;
+}
+
+.info {
+    position: relative;
+    left: 31%;
+    top: 16rem;
+}
+.pokemon {
+    position: relative;
+    left: 30%;
+    top: 10rem;
+}
+.grin-b {
+    position: relative;
+    left: 49%;
+    top: 131px;
+    /* background: green; */
+    width: 57px;
+    height: 53px;
+    border-radius: 51%;
+    cursor: pointer;
+}
+.move-left {
+    position: relative;
+    left: 23%;
+    top: 5rem;
+    width: 35px;
+    height: 31px;
+    /* background: red; */
+    cursor: pointer;
+}
+.move-right {
+    position: relative;
+    left: 19.9%;
+    top: 3.5rem;
+    width: 35px;
+    height: 23px;
+    cursor: pointer;
+}
