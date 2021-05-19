@@ -93,11 +93,12 @@ body{
 .add_task {
     border: 12px solid #2a73ad;
     border-radius: 7%;
-    width: 50%;
+    width: 56%;
     height: 69%;
     margin-left: 265px;
     -webkit-box-sizing: border-box;
     text-align: center;
+    display: none;
 }
 select {
     width: 100%;
@@ -245,4 +246,5 @@ background: #1f56ee;
     cursor: pointer;
     
 }
+
 
