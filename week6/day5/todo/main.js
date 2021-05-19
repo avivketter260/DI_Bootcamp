@@ -1,22 +1,17 @@
+
 const box = document.createElement('div')
-const body = document.querySelector('body')
-let allBox
 box.setAttribute('class', 'box')
+const body = document.querySelector('body')
 body.appendChild(box)
+let allBox
 let todo = []
 let locationn = -540;
 let x = 20
-// All dayes
-const sunday = document.querySelector('.sunday')
-const monday = document.querySelector('.monday')
-const tuesday = document.querySelector('.tuesday')
-const wednesday = document.querySelector('.wednesday')
-const thursday = document.querySelector('.thursday')
-const friday = document.querySelector('.friday')
-const saturday = document.querySelector('.saturday')
+
 
 const hideTaskDiv = () => {
-    document.querySelector('.add_task').style.display = "none";
+
+    // document.querySelector('.add_task').style.display = "none";
 
     if (window.localStorage.length > 0) {
         let objFromLocalStorage = window.localStorage.getItem('todo');
@@ -34,11 +29,9 @@ const showAddTask = () => {
     document.querySelector('.dayes').style.display = "none";
     document.querySelector('.task').style.display = "none";
 
-
 }
 const AddTask = () => {
     [task, start, end] = getValueFromInput();
-    // let randomColor = generateRandomColor()
     if (!task || !start || !end) return
     todo.push({
         task: task,
@@ -60,13 +53,12 @@ const getValueFromInput = () => {
     const start = document.querySelector('#start').value;
     const end = document.querySelector('#end').value
     document.querySelector('#name').value = ''
-
     return [task, start, end]
 }
 
 /// create random color function 
 const todoListState = () => {
-
+    if (todo.length === 0) return
     todo.forEach(task => {
         if (task.done) return
         task.done = true;
@@ -74,10 +66,10 @@ const todoListState = () => {
             const newDiv = document.createElement('div')
             newDiv.innerHTML = ` &nbsp &nbsp${task.task}&nbsp &nbsp`
             newDiv.setAttribute('class', 'task')
-            newDiv.style.width = '155px'
+            newDiv.style.width = '142px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '118px';
+            newDiv.style.marginLeft = '78px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -93,10 +85,10 @@ const todoListState = () => {
             const newDiv = document.createElement('div')
             newDiv.innerHTML = ` &nbsp &nbsp${task.task}&nbsp &nbsp`
             newDiv.setAttribute('class', 'task')
-            newDiv.style.width = '155px'
+            newDiv.style.width = '142px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '260px';
+            newDiv.style.marginLeft = '226px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -112,10 +104,10 @@ const todoListState = () => {
             const newDiv = document.createElement('div')
             newDiv.innerHTML = ` &nbsp &nbsp${task.task}&nbsp &nbsp`
             newDiv.setAttribute('class', 'task')
-            newDiv.style.width = '155px'
+            newDiv.style.width = '142px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '424px';
+            newDiv.style.marginLeft = '367px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -130,10 +122,10 @@ const todoListState = () => {
             const newDiv = document.createElement('div')
             newDiv.innerHTML = ` &nbsp &nbsp${task.task}&nbsp &nbsp`
             newDiv.setAttribute('class', 'task')
-            newDiv.style.width = '155px'
+            newDiv.style.width = '142px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '585px';
+            newDiv.style.marginLeft = '505px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -146,10 +138,10 @@ const todoListState = () => {
             const newDiv = document.createElement('div')
             newDiv.innerHTML = ` &nbsp &nbsp${task.task}&nbsp &nbsp`
             newDiv.setAttribute('class', 'task')
-            newDiv.style.width = '155px'
+            newDiv.style.width = '142px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '750px';
+            newDiv.style.marginLeft = '657px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -164,7 +156,7 @@ const todoListState = () => {
             newDiv.style.width = '155px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '913px';
+            newDiv.style.marginLeft = '794px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -179,7 +171,7 @@ const todoListState = () => {
             newDiv.style.width = '155px'
             let moveLocation = locationn === 0 ? locationn += x : locationn = -540
             newDiv.style.marginTop = `${moveLocation}px`// // -540
-            newDiv.style.marginLeft = '1080px';
+            newDiv.style.marginLeft = '934px';
             newDiv.style.background = task.color
             box.appendChild(newDiv)
             locationn = 0
@@ -193,7 +185,7 @@ const todoListState = () => {
 
     let allBox = document.querySelectorAll('.task')
     allBox.forEach((task) => { task.addEventListener('click', editTask) })
-    
+
 }
 
 
@@ -221,15 +213,17 @@ const cleanTasks = () => {
 }
 
 
-function editTask (){
+function editTask() {
     console.log(this.style.cssText)
     this.style.cssText += 'text-decoration: line-through'
     setTimeout(() => {
         this.remove()
     }, 700);
+    x = 20
 }
 
 setInterval(() => {
-     allBox = document.querySelectorAll('.task')
+    allBox = document.querySelectorAll('.task')
 }, 1000);
 allBox.forEach((task) => { task.addEventListener('dblclick', editTask) })
+
