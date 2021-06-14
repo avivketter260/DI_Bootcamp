@@ -1,0 +1,15 @@
+.btn {
+pointer-events: fill ;
+/* background-color: -internal-light-dark(rgb(239, 239, 239) !important; */
+background-color:rgb(239, 239, 239, rgb(59, 59, 59));
+}
+
+.color{
+  color: red;
+}
+
+.btn_canceld{
+  background-color:#cccccc ;
+  color:#666666 ;
+  pointer-events: none;
+}

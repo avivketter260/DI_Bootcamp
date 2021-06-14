@@ -1,0 +1,59 @@
+.heade {
+  text-align: center;
+  width: 77%;
+  margin: 3%;
+  border-bottom: 1px solid #cebfbf6b;
+}
+
+form.form {
+  margin-left: 22%;
+}
+
+input {
+  display: block;
+  width: 80%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #464a4c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+.contacts {
+  border: 1px solid rgba(0,0,0,.125);
+  width: 91%;
+  height: 4vh;
+  border-bottom: 2px solid rgb(0 0 0 / 22%);
+}
+input:focus {
+  color: #464a4c;
+  background-color: #fff;
+  border-color: #5cb3fd;
+  outline: 0;
+}
+
+button {
+  background: #05a820;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  border-color: #05a820;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+button.remove {
+  background: #a80505;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  border-color: #a80505;
+}
