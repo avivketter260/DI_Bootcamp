@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.task {
+  background: white;
+  width: 31%;
+  text-align: left;
+  font-family: 'Circular-Loom';
+  height: 4vh;
+  padding: 3px;
+  border: 1px solid #d5d2d2;
+  border-radius: 1px;
+  margin-left: 73vh;
+}
+
+label {
+  font-size: .8rem;
+  color: #9e9e9e;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  height: 4rem;
+  width: 75%;
+  font-size: 16px;
+  margin: 1px 6px 15px 13px;
+  padding: 0px;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: box-shadow .3s, border .3s;
+}
+form { margin: 38px 358px; display: flex; }  
+
+h1 {
+  color: #2eb9bf;
+}
+a {
+  height: 68%;
+  padding: 5px;
+  width: 7%;
+  color: darkgray;
+  cursor: pointer;
+  text-align: center;
+}
+a:hover{
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #f10f0f;
+  color:white
+}

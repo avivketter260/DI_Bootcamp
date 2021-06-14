@@ -1,0 +1,76 @@
+
+html.js-focus-visible {
+  background-color: rgb(95, 5, 106);
+}
+.containert {
+  height: auto;
+  width: 100%;
+  border: 1px solid #917e7e;
+  border-radius: 10px;
+  text-align: right;
+  max-width: 35rem;
+  background-color: white;
+  margin: 100px auto 0;
+}
+.main-quote {
+  margin: 20px;
+  text-align: left;
+ color: rgb(95, 5, 106);
+ opacity: 0;
+ display: block;
+ animation: slidein 1s ease-out forwards;
+
+
+}
+button {
+  display: inline;
+  padding: 1%;
+  position: relative;
+  bottom: 7px;
+  FONT-WEIGHT: 800;
+  left: -16px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(95, 5, 106);
+}
+
+
+.author {
+    padding: 11px;
+    font-family: cursive;
+}
+
+
+
+.fadeIn {
+
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* .animation{
+  color: #000; 
+  font-size: 20px;
+  text-align:  left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  animation: type3 5s steps(60, end); 
+
+}
+
+@keyframes type3{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} */
+
+

@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+
+    background-color: #3b3636;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+
+}
+
+form {
+  background-color: #deb887;
+  margin: 0;
+}
+
+.submit {
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  position: relative;
+  left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+#moveD{
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+/* top: 14px; */
+}
+
+.entered-info {
+  background-color: #1e5555;
+  color: #fff;
+  overflow: hidden;
+  height: 45vh;
+}

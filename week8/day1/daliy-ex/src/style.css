@@ -1,0 +1,6 @@
+.carousel .slider-wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 50%;
+    transition: height .15s ease-in;
+}
