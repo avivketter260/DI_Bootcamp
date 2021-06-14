@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+form {
+    position: relative;
+    left: 134px;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding:20px 0 !important;
+}
+
+.heding-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+    margin-top: -80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    padding: 0px 169px !important;
+}
+.heding-content h1,h5{
+    color:white
+}
+.heding-content .green-text{
+    color: rgb(24, 195, 24);
+}
+
+.form-control {
+    display: block;
+    position: relative;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    left: 783px;
+}
+input#exampleDataList {
+    width: 140px;
+}
+input#floatingPassword {
+    width: 441px;
+    position: relative;
+    left: 333px;
+    top: -37px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #1cc375 !important;
+    border-color: #09db79;
+    position: relative;
+    left: 230px;
+    bottom: 75px;
+}
+.col-xxl {
+    flex: 1 0 0%;
+    position: relative;
+    left: 374px;
+    height: 166px;
+}
+h6 {
+    font-size: 1rem;
+    position: relative;
+    left: 30px;
+}
+.fa-briefcase:before {
+    content: "\f0b1";
+    position: relative;
+    top: 20px;
+}
+.fa-comments:before{
+    position: relative;
+    top: 20px;
+}
+.fa-headset:before{
+    position: relative;
+    top: 20px;
+}
+.about{
+flex-wrap: wrap;
+align-content: space-around;
+padding: 83px 21px;
+width: 1194px;
+height: 368px;
+}
+#btn {
+    position: relative;
+    left: 567px;
+    bottom: 115px;
+}

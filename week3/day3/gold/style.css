@@ -1,0 +1,27 @@
+.alpha-bet{
+    margin: 10px;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.hold{
+    border: solid rgb(32, 211, 127) 4px;
+}
+.empty{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: aquamarine;
+
+    text-align: center;
+}
+.hovered{
+    background: aquamarine; 
+    border-style: dashed;
+}
+.invisibilty{
+    display: none;
+}

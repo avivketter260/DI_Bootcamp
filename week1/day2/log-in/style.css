@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.container {
+    display: -webkit-inline-box;
+    position: absolute;
+    padding: 176px 226px;
+}
+.left {
+    display: table-caption;
+    position: relative;
+    text-align: center;
+    padding: 29px 164px;
+    background: #ededed;
+    width: 184px;
+    height: 392px;
+
+}
+.right {
+    background: #a151a1;
+    width: 473px;
+    height: 445px;
+    text-align: center;
+    color: aliceblue;    
+    font-family: cursive;
+
+}
+.hello-friend {
+    position: relative;
+    top: 68px;
+}
+button.register {
+    background: #a151a1;
+    width: 224px;
+    border-radius: 57px 51px;
+    height: 44px;
+    color: white;
+    font-size: unset;
+    position: relative;
+    top: 37px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.fa-user:before {
+    position: relative;
+    content: "\f007";
+    top: 63px;
+    font-size: larger;
+}
+.fa-arrow-circle-right:before {
+    content: "\f0a9";
+    position: relative;
+    right: -15px;
+    top: 0px;
+    font-size: large;
+}
+.sign-in {
+    position: relative;
+    top: 32px;
+    font-size: larger;
+    font-family: sans-serif;
+    /* padding: 20px; */
+}
+input {
+    border-radius: 25px;
+    font-size: larger;
+    padding: 4px 14px;
+    position: relative;
+    right: 60px;
+    top: -21px;
+}
+input#email {
+    /* padding: 5px 11px; */
+    position: relative;
+    top: -41px;
+}
+input#password {
+    position: relative;
+    top: -12px;
+}
+#remember {
+    padding: 0 0;
+    position: relative;
+    right: 78px;
+    bottom: 21px;
+}
+input#remember-me {
+    position: relative;
+    right: 4px;
+    top: -61px;
+}
+#forgot {
+    position: relative;
+    top: -104px;
+    right: -96px;
+    cursor: pointer;
+}
+button#submit {
+    position: relative;
+    top: -98px;
+    width: 274px;
+    right: 41px;
+    height: 41px;
+    border-radius: 229px 222px;
+    color: white;
+    background: #8e2b8eed;
+    font-size: medium;
+    font-family: inherit;
+    cursor: pointer;
+}
+span#connect {
+    position: relative;
+    bottom: 78px;
+}
+#line {
+    padding: 0 0;
+    position: relative;
+    bottom: 64px;
+}
+.icons {
+    position: relative;
+    bottom: 52px;
+    
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    padding: 0 40px;
+}

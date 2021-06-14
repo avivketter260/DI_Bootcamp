@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&family=New+Tegomin&display=swap');
+body {
+    margin: 0;
+}
+
+.cv-page {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.left{
+    background-color: rgba(186, 192, 197, 0.76);
+    width: 50%;
+    height: 100%;
+}
+img {
+    border-radius: 50%;
+    height: 54%;
+    position: relative;
+    width: 67%;
+    top: 24px;
+}
+.right{
+    margin: 0;
+    position: relative;
+    padding: 28px 43px;
+    right: 253px;
+}
+
+.img {
+    text-align: center;
+    padding: 61px 21px;
+    grid-area: img;
+}
+.right h1,h4{
+    font-size: xx-large;
+    font-weight: lighter;
+    margin: -2px 71px;
+}
+.contact {
+    text-align: center;
+    padding: 23px 0px;
+    grid-area: contact;
+
+}
+.contact p {
+    padding: 8px 0px;
+    font-family: 'New Tegomin', serif;
+}
+hr {
+    border: 1px soild gray;
+    width: 199px;
+}
+.icons p {
+    padding: 15px 0;
+
+}
+.icons{
+    text-align: center;
+    grid-area: icons;
+
+}
+
+.right h1, h4 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 15px 71px;
+    padding: 29px 0;
+    text-transform: uppercase;
+}
+.profile,.education,.experience{
+    padding: 7px 34px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'New Tegomin', serif;
+}
+ul.order-ul {
+    display: grid;
+    padding: 12px 5px;
+    margin: 26px -94px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.skills{
+    padding: 2px 130px;
+    font-family: 'New Tegomin', serif;
+    grid-area: skills;
+
+
+}
+.profile{
+    grid-area: profile;
+
+}
+.education{
+    grid-area: education;
+}
+.experience{
+    grid-area: experience;
+
+}
+@media screen and (max-width: 1500px){
+    .cv-page{
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+        "img"
+        "contact"
+        "icons"
+        "profile"
+        "education"
+        "skills"
+        "experience"
+  
+    }  
+    .right{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0px 0px 0px 300px 
+    }
+    .left{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0px 200px 
+    }
+  };
